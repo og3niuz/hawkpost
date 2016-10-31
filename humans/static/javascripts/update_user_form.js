@@ -22,7 +22,7 @@ $(document).ready(function(){
     }
   });
 
-  $(".form__block label").addClass("smalltext");
+  $(".form__block label").addClass("smallmedium text-darkest");
   $(".form__block input[type=text]").addClass("text padding-settings");
 
   $("#id_server_signed").change(function() {
